@@ -1,7 +1,7 @@
 The AWS Cognito Auth Plugin along with the CLI provides different ways in which a developer can authenticate a user into an app. Lets see the simplest use case first ie authenticate a user with username password.
 
 ## Goal
-User AWS Cognito Auth plugin to register and authenticate a user. 
+Use AWS Cognito Auth plugin to authenticate a user. 
 
 ## Prerequisites
 
@@ -28,15 +28,82 @@ After this step signIn flow is complete and you will see the following in your c
 Sign in succeeded
 ```
 
-## SignIn with a prebuild WebUI
+Congratulations!! you have sucessfully registered and authenticated a user into the auth category of Amplify. If you would like to explore other ways of authenticating a user, check out the session below.
+## Other authenticate use cases
 
-### Provisioning backend
+### SignIn with a prebuild WebUI
+AWS Cognito provides a prebuild hostedUI that you can use instead of providing a custom UI for registration and signIn a user.
 
-### SignIn 
+#### Provisioning backend
+The Amplify CLI steps are different for enabling a webUI signIn, so if you have already setup auth using Amplify CLI without webUI follow the steps below:
 
-## SignIn with another auth provider
+```bash
+amplify update auth
 
-### Provisioning backend
+What do you want to do? 
+    Walkthrough all the auth configurations
+Select the authentication/authorization services that you want to use: 
+    User Sign-Up, Sign-In, connected with AWS IAM controls (Enables per-user Storage features for images or other content, Analytics, and
+more)
+Allow unauthenticated logins? (Provides scoped down permissions that you can control via AWS IAM) 
+    No
+Do you want to enable 3rd party authentication providers in your identity pool? 
+    No
+Do you want to add User Pool Groups? 
+    No
+Do you want to add an admin queries API? 
+    No
+Multifactor authentication (MFA) user login options: 
+    OFF
+Email based user registration/forgot password: 
+    Enabled (Requires per-user email entry at registration)
+Please specify an email verification subject: 
+    Your verification code
+Please specify an email verification message: 
+    Your verification code is {####}
+Do you want to override the default password policy for this User Pool? 
+    No
+Specify the app's refresh token expiration period (in days): 
+    30
+Do you want to specify the user attributes this app can read and write? 
+    No
+Do you want to enable any of the following capabilities?
+Do you want to use an OAuth flow? 
+    Yes
+What domain name prefix you want us to create for you? 
+    authsampleapp
+Enter your redirect signin URI: 
+    myapp://
+? Do you want to add another redirect signin URI 
+    No
+Enter your redirect signout URI: 
+    myapp://
+? Do you want to add another redirect signout URI 
+    No
+Select the OAuth scopes enabled for this project. 
+    Phone, Email, OpenID, Profile, aws.cognito.signin.user.admin
+Select the identity providers you want to configure for your user pool:
+? Do you want to configure Lambda Triggers for Cognito? 
+    No
+
+```
+
+
+#### Project setup 
+<inline-fragment platform="ios" src="~/lib/auth/fragments/ios/authentication/prebuild_webUI/10_project_setup.md"></inline-fragment>
+
+#### Show the webUI to signIn
+<inline-fragment platform="ios" src="~/lib/auth/fragments/ios/authentication/prebuild_webUI/20_signIn.md"></inline-fragment>
+
+After this step signIn flow is complete and you will see the following in your console window:
+
+```bash
+Sign in succeeded
+```
+
+### SignIn with another auth provider
+
+#### Provisioning backend
 
 
 <amplify-block-switcher>
@@ -54,9 +121,9 @@ Sign in succeeded
 </amplify-block>
 </amplify-block-switcher>
 
-### SignIn 
+#### SignIn 
 
-## SignIn with custom auth flow
+### SignIn with custom auth flow
 <!--
 <inline-fragment platform="ios" src="~/sdk/auth/fragments/ios/custom-auth-flow.md"></inline-fragment>
 <inline-fragment platform="android" src="~/sdk/auth/fragments/android/custom-auth-flow.md"></inline-fragment>
