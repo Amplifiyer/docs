@@ -3,13 +3,30 @@ The AWS Cognito Auth Plugin along with the CLI provides different ways in which 
 ## Goal
 User AWS Cognito Auth plugin to register and authenticate a user. 
 
+## Prerequisites
+
+<inline-fragment platform="ios" src="~/lib/auth/fragments/ios/getting_started/10_preReq.md"></inline-fragment>
+<inline-fragment platform="android" src="~/lib/auth/fragments/android/getting_started/10_preReq.md"></inline-fragment>
+
+A user should exists in the backend before we can signIn. You can create a user by following the register a user guide.
+
 ## SignIn with username password
 
 ### Provisioning backend
 
+Should have followed the steps in getting started guide [TODO add link]()
 
 ### SignIn 
 
+Implement an UI to get the username and password from the user. After the user enter the username and password you can start the signIn flow by calling the following method:
+
+<inline-fragment platform="ios" src="~/lib/auth/fragments/ios/authentication/username_password/10_signIn.md"></inline-fragment>
+
+After this step signIn flow is complete and you will see the following in your console window:
+
+```bash
+Sign in succeeded
+```
 
 ## SignIn with a prebuild WebUI
 
