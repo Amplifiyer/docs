@@ -1,7 +1,14 @@
 ---
-title: Working with API
+title: Working with other Category
 description: Learn more about how to use the Amplify Framework's auth APIs 
 ---
 
-<inline-fragment platform="ios" src="~/sdk/auth/fragments/ios/working-with-api.md"></inline-fragment>
-<inline-fragment platform="android" src="~/sdk/auth/fragments/android/working-with-api.md"></inline-fragment>
+How to use auth category with other categories
+
+## UnAuth access
+
+## Get aws credentials
+
+## Get identity id
+
+## Get cognito tokens
