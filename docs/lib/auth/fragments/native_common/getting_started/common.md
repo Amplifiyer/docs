@@ -32,7 +32,7 @@ To push your changes to the cloud, **execute the command**:
 amplify push
 ```
 
-Upon completion, `amplifyconfiguration.json` should be updated to reference provisioned backend auth resources.  Note that these files should already be a part of your project if you followed the [Project setup walkthrough](~/lib/project-setup/project-setup.md).
+Upon completion, `amplifyconfiguration.json` should be updated to reference provisioned backend auth resources.  Note that these files should already be a part of your project if you followed the [Project setup walkthrough](~/lib/project-setup/create-application.md).
 
 ## Install Amplify Libraries
 
