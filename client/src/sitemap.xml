@@ -301,17 +301,37 @@
     <priority>.5</priority>
   </url>
   <url>
-    <loc>https://docs.amplify.aws/lib/auth/custom-auth-flow</loc>
+    <loc>https://docs.amplify.aws/lib/auth/auth-events</loc>
     <changefreq>hourly</changefreq>
     <priority>.5</priority>
   </url>
   <url>
-    <loc>https://docs.amplify.aws/lib/auth/custom-auth-flow/q/platform/android</loc>
+    <loc>https://docs.amplify.aws/lib/auth/auth-events/q/platform/android</loc>
     <changefreq>hourly</changefreq>
     <priority>.5</priority>
   </url>
   <url>
-    <loc>https://docs.amplify.aws/lib/auth/custom-auth-flow/q/platform/ios</loc>
+    <loc>https://docs.amplify.aws/lib/auth/auth-events/q/platform/ios</loc>
+    <changefreq>hourly</changefreq>
+    <priority>.5</priority>
+  </url>
+  <url>
+    <loc>https://docs.amplify.aws/lib/auth/auth-events/q/platform/js</loc>
+    <changefreq>hourly</changefreq>
+    <priority>.5</priority>
+  </url>
+  <url>
+    <loc>https://docs.amplify.aws/lib/auth/authenticate-user</loc>
+    <changefreq>hourly</changefreq>
+    <priority>.5</priority>
+  </url>
+  <url>
+    <loc>https://docs.amplify.aws/lib/auth/authenticate-user/q/platform/android</loc>
+    <changefreq>hourly</changefreq>
+    <priority>.5</priority>
+  </url>
+  <url>
+    <loc>https://docs.amplify.aws/lib/auth/authenticate-user/q/platform/ios</loc>
     <changefreq>hourly</changefreq>
     <priority>.5</priority>
   </url>
@@ -341,21 +361,6 @@
     <priority>.5</priority>
   </url>
   <url>
-    <loc>https://docs.amplify.aws/lib/auth/drop-in-auth</loc>
-    <changefreq>hourly</changefreq>
-    <priority>.5</priority>
-  </url>
-  <url>
-    <loc>https://docs.amplify.aws/lib/auth/drop-in-auth/q/platform/android</loc>
-    <changefreq>hourly</changefreq>
-    <priority>.5</priority>
-  </url>
-  <url>
-    <loc>https://docs.amplify.aws/lib/auth/drop-in-auth/q/platform/ios</loc>
-    <changefreq>hourly</changefreq>
-    <priority>.5</priority>
-  </url>
-  <url>
     <loc>https://docs.amplify.aws/lib/auth/emailpassword</loc>
     <changefreq>hourly</changefreq>
     <priority>.5</priority>
@@ -366,17 +371,22 @@
     <priority>.5</priority>
   </url>
   <url>
-    <loc>https://docs.amplify.aws/lib/auth/federated-identities</loc>
+    <loc>https://docs.amplify.aws/lib/auth/escapehatch</loc>
     <changefreq>hourly</changefreq>
     <priority>.5</priority>
   </url>
   <url>
-    <loc>https://docs.amplify.aws/lib/auth/federated-identities/q/platform/android</loc>
+    <loc>https://docs.amplify.aws/lib/auth/escapehatch/q/platform/android</loc>
     <changefreq>hourly</changefreq>
     <priority>.5</priority>
   </url>
   <url>
-    <loc>https://docs.amplify.aws/lib/auth/federated-identities/q/platform/ios</loc>
+    <loc>https://docs.amplify.aws/lib/auth/escapehatch/q/platform/ios</loc>
+    <changefreq>hourly</changefreq>
+    <priority>.5</priority>
+  </url>
+  <url>
+    <loc>https://docs.amplify.aws/lib/auth/escapehatch/q/platform/js</loc>
     <changefreq>hourly</changefreq>
     <priority>.5</priority>
   </url>
@@ -397,51 +407,6 @@
   </url>
   <url>
     <loc>https://docs.amplify.aws/lib/auth/getting-started/q/platform/js</loc>
-    <changefreq>hourly</changefreq>
-    <priority>.5</priority>
-  </url>
-  <url>
-    <loc>https://docs.amplify.aws/lib/auth/guest-access</loc>
-    <changefreq>hourly</changefreq>
-    <priority>.5</priority>
-  </url>
-  <url>
-    <loc>https://docs.amplify.aws/lib/auth/guest-access/q/platform/android</loc>
-    <changefreq>hourly</changefreq>
-    <priority>.5</priority>
-  </url>
-  <url>
-    <loc>https://docs.amplify.aws/lib/auth/guest-access/q/platform/ios</loc>
-    <changefreq>hourly</changefreq>
-    <priority>.5</priority>
-  </url>
-  <url>
-    <loc>https://docs.amplify.aws/lib/auth/hosted-ui</loc>
-    <changefreq>hourly</changefreq>
-    <priority>.5</priority>
-  </url>
-  <url>
-    <loc>https://docs.amplify.aws/lib/auth/hosted-ui/q/platform/android</loc>
-    <changefreq>hourly</changefreq>
-    <priority>.5</priority>
-  </url>
-  <url>
-    <loc>https://docs.amplify.aws/lib/auth/hosted-ui/q/platform/ios</loc>
-    <changefreq>hourly</changefreq>
-    <priority>.5</priority>
-  </url>
-  <url>
-    <loc>https://docs.amplify.aws/lib/auth/how-it-works</loc>
-    <changefreq>hourly</changefreq>
-    <priority>.5</priority>
-  </url>
-  <url>
-    <loc>https://docs.amplify.aws/lib/auth/how-it-works/q/platform/android</loc>
-    <changefreq>hourly</changefreq>
-    <priority>.5</priority>
-  </url>
-  <url>
-    <loc>https://docs.amplify.aws/lib/auth/how-it-works/q/platform/ios</loc>
     <changefreq>hourly</changefreq>
     <priority>.5</priority>
   </url>
@@ -486,6 +451,41 @@
     <priority>.5</priority>
   </url>
   <url>
+    <loc>https://docs.amplify.aws/lib/auth/register-user</loc>
+    <changefreq>hourly</changefreq>
+    <priority>.5</priority>
+  </url>
+  <url>
+    <loc>https://docs.amplify.aws/lib/auth/register-user/q/platform/android</loc>
+    <changefreq>hourly</changefreq>
+    <priority>.5</priority>
+  </url>
+  <url>
+    <loc>https://docs.amplify.aws/lib/auth/register-user/q/platform/ios</loc>
+    <changefreq>hourly</changefreq>
+    <priority>.5</priority>
+  </url>
+  <url>
+    <loc>https://docs.amplify.aws/lib/auth/signOut</loc>
+    <changefreq>hourly</changefreq>
+    <priority>.5</priority>
+  </url>
+  <url>
+    <loc>https://docs.amplify.aws/lib/auth/signOut/q/platform/android</loc>
+    <changefreq>hourly</changefreq>
+    <priority>.5</priority>
+  </url>
+  <url>
+    <loc>https://docs.amplify.aws/lib/auth/signOut/q/platform/ios</loc>
+    <changefreq>hourly</changefreq>
+    <priority>.5</priority>
+  </url>
+  <url>
+    <loc>https://docs.amplify.aws/lib/auth/signOut/q/platform/js</loc>
+    <changefreq>hourly</changefreq>
+    <priority>.5</priority>
+  </url>
+  <url>
     <loc>https://docs.amplify.aws/lib/auth/social</loc>
     <changefreq>hourly</changefreq>
     <priority>.5</priority>
@@ -516,6 +516,21 @@
     <priority>.5</priority>
   </url>
   <url>
+    <loc>https://docs.amplify.aws/lib/auth/user-attributes</loc>
+    <changefreq>hourly</changefreq>
+    <priority>.5</priority>
+  </url>
+  <url>
+    <loc>https://docs.amplify.aws/lib/auth/user-attributes/q/platform/android</loc>
+    <changefreq>hourly</changefreq>
+    <priority>.5</priority>
+  </url>
+  <url>
+    <loc>https://docs.amplify.aws/lib/auth/user-attributes/q/platform/ios</loc>
+    <changefreq>hourly</changefreq>
+    <priority>.5</priority>
+  </url>
+  <url>
     <loc>https://docs.amplify.aws/lib/auth/working-with-api</loc>
     <changefreq>hourly</changefreq>
     <priority>.5</priority>
@@ -527,6 +542,11 @@
   </url>
   <url>
     <loc>https://docs.amplify.aws/lib/auth/working-with-api/q/platform/ios</loc>
+    <changefreq>hourly</changefreq>
+    <priority>.5</priority>
+  </url>
+  <url>
+    <loc>https://docs.amplify.aws/lib/auth/working-with-api/q/platform/js</loc>
     <changefreq>hourly</changefreq>
     <priority>.5</priority>
   </url>
@@ -1961,11 +1981,6 @@
     <priority>.5</priority>
   </url>
   <url>
-    <loc>https://docs.amplify.aws/start/getting-started/hosting/q/integration/android</loc>
-    <changefreq>hourly</changefreq>
-    <priority>.5</priority>
-  </url>
-  <url>
     <loc>https://docs.amplify.aws/start/getting-started/hosting/q/integration/angular</loc>
     <changefreq>hourly</changefreq>
     <priority>.5</priority>
@@ -1976,22 +1991,12 @@
     <priority>.5</priority>
   </url>
   <url>
-    <loc>https://docs.amplify.aws/start/getting-started/hosting/q/integration/ios</loc>
-    <changefreq>hourly</changefreq>
-    <priority>.5</priority>
-  </url>
-  <url>
     <loc>https://docs.amplify.aws/start/getting-started/hosting/q/integration/js</loc>
     <changefreq>hourly</changefreq>
     <priority>.5</priority>
   </url>
   <url>
     <loc>https://docs.amplify.aws/start/getting-started/hosting/q/integration/react</loc>
-    <changefreq>hourly</changefreq>
-    <priority>.5</priority>
-  </url>
-  <url>
-    <loc>https://docs.amplify.aws/start/getting-started/hosting/q/integration/react-native</loc>
     <changefreq>hourly</changefreq>
     <priority>.5</priority>
   </url>
